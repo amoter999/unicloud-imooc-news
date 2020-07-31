@@ -1,0 +1,1 @@
+<view class="homePage"><tab-scroll vue-id="1d9b5536-1" labelList="{{labelList}}" onVueInit="__l"></tab-scroll></view>

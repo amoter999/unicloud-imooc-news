@@ -1,0 +1,1 @@
+<view class="tab-scroll"><scroll-view scroll-x="true"><view class="bigTabCont"><view class="tabScrollBox"><block a:for="{{labelList}}" a:for-item="item" a:for-index="index" a:key="id"><view class="tabItem">{{item.name}}</view></block></view><view class="settingIcon"></view></view></scroll-view></view>

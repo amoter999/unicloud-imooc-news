@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "首页",
+  "usingComponents": {
+    "tab-scroll": "/components/tab-scroll/tab-scroll"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="tab-scroll"><scroll-view scroll-x="true"><view class="bigTabCont"><view class="tabScrollBox"><block wx:for="{{labelList}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view data-event-opts="{{[['tap',[['clickThisTab',['$0'],[[['labelList','id',item.id,'_id']]]]]]]}}" class="tabItem" bindtap="__e">{{item.name}}</view></block></view></view></scroll-view></view>

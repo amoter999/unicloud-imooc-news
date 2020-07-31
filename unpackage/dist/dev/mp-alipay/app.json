@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/follow/follow",
+    "pages/profile/profile"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#999999",
+    "selectedColor": "#f07474",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "static/home.png",
+        "activeIcon": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/follow/follow",
+        "name": "关注",
+        "icon": "static/follow.png",
+        "activeIcon": "static/follow-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "name": "我的",
+        "icon": "static/my.png",
+        "activeIcon": "static/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
